@@ -10,7 +10,12 @@ import path from "path";
 dotenv.config();
 const app = express();
 
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://pflegeexperten-mannheim.org/",
+  })
+);
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
