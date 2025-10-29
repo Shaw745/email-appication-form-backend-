@@ -1,20 +1,21 @@
 {
-    "name": "example-package",
-    "version": "1.0.0",
-    "description": "An example package.json file",
-    "main": "index.js",
-    "scripts": {
-        "start": "node index.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Your Name",
-    "license": "ISC",
-    "dependencies": {
-        "cors": "^2.8.5",
-        "dotenv": "^17.2.3",
-        "express": "^4.21.2",
-        "multer": "^2.0.2",
-        "nodemailer": "^7.0.10"
-    },
-    "keywords": []
+  "name": "email-format",
+  "version": "1.0.0",
+  "description": "An example package.json file",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emmanuels email format",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.10"
+  },
+  "keywords": []
 }
